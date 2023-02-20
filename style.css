@@ -1,0 +1,43 @@
+/* NOTE id(#) should be unique to only one element/tag while classes(.) can be used for many elements/tags */
+/* Padding creates space inside an element. Margin creates space outside of it */
+
+body {
+    background-color: #faf8ed;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: #7C3988;
+    color: #FFF6FF;
+    padding: 5px;
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+}
+
+#mainHeader {
+    font-size: 50px;
+    font-family: 'Merienda', cursive;;
+}
+
+#subHeader {
+    font-size: 18px;
+}
+
+#navigationBar {
+    background-color: #A885AC;
+    position: sticky;
+    /* top set to 0 will keep the nav bar at the top */
+    top: 0;
+}
+
+#navigationBar a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px;
+}
+
+.pageContent {
+    padding: 20px;
+}
