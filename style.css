@@ -39,9 +39,20 @@ header {
 }
 
 .pageContent {
-    padding: 2%;
+    padding: 1.5%;
+    display: flex;
+}
+
+.sideBar {
+    flex: 30%;
+    padding-right: 2%;
+}
+
+.main {
+    flex: 70%;
 }
 
 img {
     width: 100%;
 }
+
