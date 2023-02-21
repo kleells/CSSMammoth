@@ -32,7 +32,7 @@ header {
 }
 
 #navigationBar a {
-    color: white;
+    color: #FFF6FF;
     text-decoration: none;
     display: inline-block;
     padding: 5px;
@@ -48,6 +48,13 @@ header {
     padding-right: 2%;
 }
 
+.title {
+    font-size: 30px;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: underline;
+}
+
 .main {
     flex: 70%;
 }
@@ -55,4 +62,20 @@ header {
 img {
     width: 100%;
 }
+
+/* @media makes site responsiive to varying screen sizes by overriding other CSS styling*/
+@media screen and (max-width: 700px) {
+    #navigationBar {
+        position: relative;
+    }
+
+    #navigationBar a {
+        display: flex;
+    }
+
+    .pageContent {
+        flex-direction: column;
+    }
+}
+
 
