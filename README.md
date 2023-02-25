@@ -7,7 +7,7 @@ A coding tutorial created to review and practice CSS by styling a basic index.ht
 - CSS
 
 ## Dependencies
-None. Viewer only needs to utilze Live Server through the index.html file.
+None. Viewer only needs to utilize Live Server through the index.html file.
 
 ## Uses
 To practice and style a HTML file with CSS. This project offered some clarification on certain CSS concepts (padding vs. margin, id being unique vs. classes being reused, @media and -ms-flex)
